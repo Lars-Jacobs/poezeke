@@ -1,0 +1,19 @@
+#pur{
+    position: absolute;
+    top: 10vh;
+    cursor: pointer;
+    font-size: clamp(6px, 3vh, 3vmax);
+    left: 50vw;
+    transform: translateX(-50%);
+    width: fit-content;
+}
+
+#cat1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    height: 50vh;
+    object-fit: contain;
+}
