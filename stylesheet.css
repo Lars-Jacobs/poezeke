@@ -8,12 +8,47 @@
     width: fit-content;
 }
 
+#cat1:hover{
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 92vw;
+    height: 51vh;
+    object-fit: contain;
+}
+
 #cat1 {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 50vw;
+    max-width: 90vw;
     height: 50vh;
     object-fit: contain;
+}
+
+#subdlinks{
+    position: absolute;
+    bottom: 5vh;
+    left: 50vw;
+    transform: translateX(-50%);
+    width: max-content;
+}
+
+.subdlink{
+    text-decoration: none;
+    color: black;
+    font-size: 4vmin;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+footer {
+    position: absolute;
+    bottom: 0vh;
+    left: 50vw;
+    transform: translateX(-50%);
+    font-size: 2vmin;
 }
