@@ -43,6 +43,7 @@
 
 #game:focus {
     outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 #game{
@@ -51,7 +52,7 @@
     top: 10vh;
     left: 50%;
     transform: translateX(-50%);
-    height: 30em;
+    height: 20em;
     max-height: 50vh;
     width: 100%;
     border: none;   
