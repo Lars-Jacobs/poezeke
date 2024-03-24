@@ -1,3 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+
+}
+
 #miauw{
     position: relative;
     top: 3vh;
@@ -51,7 +58,7 @@
     max-height: 50vh;
     width: 100%;
     border: none;
-    background-color: lightgrey;   
+    background-color: transparent;   
 }
 
 #subdlinks{
