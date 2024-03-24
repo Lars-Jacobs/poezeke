@@ -41,6 +41,10 @@
     object-fit: contain;
 }
 
+#game:focus {
+    outline: none;
+}
+
 #game{
     cursor: pointer;
     position: relative;
