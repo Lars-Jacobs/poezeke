@@ -5,19 +5,18 @@
     color: #585858;
 }
 
-body {
+/* body {
     background-color: #f7f7f7;
     color: #585858;
     font-size: 125%;
-    cursor: pointer;
-}
+} */
 
 body.safe-browsing {
     background-color: rgb(206, 52, 38);
     color: white;
 }
 
-/* button {
+button {
     background: rgb(76, 142, 250);
     border: 0;
     border-radius: 2px;
@@ -30,9 +29,9 @@ body.safe-browsing {
     margin: -6px 0 0;
     padding: 8px 24px;
     transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
+}
 
-/* [dir='rtl'] button {
+[dir='rtl'] button {
     float: left;
 }
 
@@ -43,7 +42,7 @@ button:active {
 
 button:hover {
     box-shadow: 0 1px 3px rgba(0, 0, 0, .50);
-} */
+}
 
 .debugging-content {
     line-height: 1em;
