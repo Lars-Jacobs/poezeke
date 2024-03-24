@@ -1,32 +1,56 @@
+#miauw{
+    position: relative;
+    top: 3vh;
+    left: 50%;
+    height: 22vh;
+    transform: translateX(-50%);
+}
+
+#miauw p {
+    margin: 0;
+    line-height: 1;
+}
+
 #pur{
-    position: absolute;
-    top: 10vh;
+    position: relative;
+    left: 50%;
     cursor: pointer;
-    font-size: clamp(6px, 3vh, 3vmax);
-    left: 50vw;
+    font-size: clamp(6px, 2vh, 2vmax);
     transform: translateX(-50%);
     width: fit-content;
 }
 
-#cat1:hover{
-    cursor: pointer;
-    position: absolute;
+#cat1 {
+    position: relative;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 92vw;
-    height: 51vh;
+    margin-top: 1vh;
+    transform: translateX(-50%);
+    max-width: 90vw;
+    height: 20vh;
     object-fit: contain;
 }
 
-#cat1 {
-    position: absolute;
+#cat1:hover{
+    cursor: pointer;
+    position: relative;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 90vw;
-    height: 50vh;
+    margin-top: 0.5vh;
+    transform: translateX(-50%);
+    max-width: 92vw;
+    height: 22vh;
     object-fit: contain;
+}
+
+#game{
+    cursor: pointer;
+    position: relative;
+    top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 30em;
+    max-height: 50vh;
+    width: 100%;
+    border: none;   
 }
 
 #subdlinks{
