@@ -1,3 +1,2 @@
 # poezeke
-poezeke website
-visit poeze.ke
+poezeke website [poeze.ke](https://poeze.ke/)
